@@ -1,0 +1,21 @@
+PODS:
+  - MBProgressHUD (1.0.0)
+  - SVProgressHUD (2.1.2)
+  - TMCache (2.1.0)
+  - TZImagePickerController (1.8.9)
+
+DEPENDENCIES:
+  - MBProgressHUD
+  - SVProgressHUD
+  - TMCache
+  - TZImagePickerController
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  TMCache: 95ebcc9b3c7e90fb5fd8fc3036cba3aa781c9bed
+  TZImagePickerController: b44f4cfc6d320dab9a53adcdda725099be36dcda
+
+PODFILE CHECKSUM: 1272edcef5e38457b6c2dff07494b79479dcfe1e
+
+COCOAPODS: 1.2.1.beta.1
