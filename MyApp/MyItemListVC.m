@@ -7,6 +7,7 @@
 //
 
 #import "MyItemListVC.h"
+#import "SelectImgVC.h"
 
 @interface MyItemListVC ()
 @property (nonatomic, strong) NSArray * dataArr;
@@ -46,7 +47,8 @@
     switch (indexPath.row) {
         case 0:
         {
-            
+            SelectImgVC * vc = [SelectImgVC new];
+            [self.navigationController pushViewController:vc animated:YES];
         }
             break;
             

@@ -19,11 +19,35 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     
+    //适配不同尺寸屏幕
+    [self AdaptiveSize];
+    
     MyItemListVC * vc = [[MyItemListVC alloc] init];
     UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (void)AdaptiveSize {
+    if (ScreenHeight > 480&&ScreenWidth < ScreenHeight) {
+        //4寸屏以上，且为竖屏
+        self.autoSizeScaleX = ScreenWidth/375;
+        self.autoSizeScaleY = ScreenHeight/667;
+    }else if(ScreenWidth > 480&&ScreenWidth > ScreenHeight){
+        //4寸屏以上，横屏
+        self.autoSizeScaleX = ScreenWidth/667;
+        self.autoSizeScaleY = ScreenHeight/375;
+    }else if(ScreenWidth < 480&&ScreenWidth > ScreenHeight){
+        //3.5寸横屏
+        self.autoSizeScaleX = 568/667;
+        self.autoSizeScaleY = ScreenHeight/375;
+    }else{
+        //3.5寸竖屏  只按宽的比例
+        self.autoSizeScaleX = ScreenWidth/375;
+        self.autoSizeScaleY = ScreenWidth/375;
+    }
+    
 }
 
 

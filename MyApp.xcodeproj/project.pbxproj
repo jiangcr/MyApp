@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85952C1F0D1646F9B1CA8ED4 /* libPods-MyApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0045C80AB912F8DAFAEB591E /* libPods-MyApp.a */; };
+		EE1279801F4D73FB006AD8FF /* MJImgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE12797E1F4D73FB006AD8FF /* MJImgCell.m */; };
+		EE1279811F4D73FB006AD8FF /* MJImgCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE12797F1F4D73FB006AD8FF /* MJImgCell.xib */; };
+		EE1279821F4D7738006AD8FF /* SelectImgVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE12797C1F4D73A5006AD8FF /* SelectImgVC.m */; };
+		EE1279831F4D776C006AD8FF /* LxGridViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1279791F4D71F4006AD8FF /* LxGridViewFlowLayout.m */; };
+		EE1279841F4D7773006AD8FF /* BasicControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1279751F4D6C42006AD8FF /* BasicControl.m */; };
+		EE1279851F4D7775006AD8FF /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1279771F4D6C42006AD8FF /* UIView+Extension.m */; };
 		EEE2673D1F4C318F00D40183 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE2673C1F4C318F00D40183 /* AppDelegate.m */; };
 		EEE267401F4C318F00D40183 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE2673F1F4C318F00D40183 /* ViewController.m */; };
 		EEE267431F4C318F00D40183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE267411F4C318F00D40183 /* Main.storyboard */; };
@@ -18,6 +25,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0045C80AB912F8DAFAEB591E /* libPods-MyApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EBB15FCCCE7FB10D8D998DE /* Pods-MyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyApp/Pods-MyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4DD1F1059C7BA726E754FFE0 /* Pods-MyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyApp/Pods-MyApp.release.xcconfig"; sourceTree = "<group>"; };
+		EE1279701F4D6B14006AD8FF /* MyApp.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyApp.pch; sourceTree = "<group>"; };
+		EE1279711F4D6BBB006AD8FF /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		EE1279741F4D6C42006AD8FF /* BasicControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicControl.h; sourceTree = "<group>"; };
+		EE1279751F4D6C42006AD8FF /* BasicControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicControl.m; sourceTree = "<group>"; };
+		EE1279761F4D6C42006AD8FF /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		EE1279771F4D6C42006AD8FF /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		EE1279781F4D71F4006AD8FF /* LxGridViewFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LxGridViewFlowLayout.h; sourceTree = "<group>"; };
+		EE1279791F4D71F4006AD8FF /* LxGridViewFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LxGridViewFlowLayout.m; sourceTree = "<group>"; };
+		EE12797B1F4D73A5006AD8FF /* SelectImgVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectImgVC.h; sourceTree = "<group>"; };
+		EE12797C1F4D73A5006AD8FF /* SelectImgVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectImgVC.m; sourceTree = "<group>"; };
+		EE12797D1F4D73FB006AD8FF /* MJImgCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJImgCell.h; sourceTree = "<group>"; };
+		EE12797E1F4D73FB006AD8FF /* MJImgCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJImgCell.m; sourceTree = "<group>"; };
+		EE12797F1F4D73FB006AD8FF /* MJImgCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MJImgCell.xib; sourceTree = "<group>"; };
 		EEE267381F4C318F00D40183 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE2673B1F4C318F00D40183 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EEE2673C1F4C318F00D40183 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -38,17 +61,70 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85952C1F0D1646F9B1CA8ED4 /* libPods-MyApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CC27827DD729BC06B8DCDB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0045C80AB912F8DAFAEB591E /* libPods-MyApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2984019C92D85B546CAC6986 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EBB15FCCCE7FB10D8D998DE /* Pods-MyApp.debug.xcconfig */,
+				4DD1F1059C7BA726E754FFE0 /* Pods-MyApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE1279721F4D6C25006AD8FF /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				EE1279781F4D71F4006AD8FF /* LxGridViewFlowLayout.h */,
+				EE1279791F4D71F4006AD8FF /* LxGridViewFlowLayout.m */,
+				EE1279731F4D6C42006AD8FF /* BasicControl */,
+			);
+			path = ThirdPart;
+			sourceTree = "<group>";
+		};
+		EE1279731F4D6C42006AD8FF /* BasicControl */ = {
+			isa = PBXGroup;
+			children = (
+				EE1279741F4D6C42006AD8FF /* BasicControl.h */,
+				EE1279751F4D6C42006AD8FF /* BasicControl.m */,
+				EE1279761F4D6C42006AD8FF /* UIView+Extension.h */,
+				EE1279771F4D6C42006AD8FF /* UIView+Extension.m */,
+			);
+			path = BasicControl;
+			sourceTree = "<group>";
+		};
+		EE12797A1F4D73A5006AD8FF /* PhotoMontage */ = {
+			isa = PBXGroup;
+			children = (
+				EE12797B1F4D73A5006AD8FF /* SelectImgVC.h */,
+				EE12797C1F4D73A5006AD8FF /* SelectImgVC.m */,
+				EE12797D1F4D73FB006AD8FF /* MJImgCell.h */,
+				EE12797E1F4D73FB006AD8FF /* MJImgCell.m */,
+				EE12797F1F4D73FB006AD8FF /* MJImgCell.xib */,
+			);
+			path = PhotoMontage;
+			sourceTree = "<group>";
+		};
 		EEE2672F1F4C318E00D40183 = {
 			isa = PBXGroup;
 			children = (
 				EEE2673A1F4C318F00D40183 /* MyApp */,
 				EEE267391F4C318F00D40183 /* Products */,
+				2984019C92D85B546CAC6986 /* Pods */,
+				1CC27827DD729BC06B8DCDB3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +139,8 @@
 		EEE2673A1F4C318F00D40183 /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
+				EE12797A1F4D73A5006AD8FF /* PhotoMontage */,
+				EE1279721F4D6C25006AD8FF /* ThirdPart */,
 				EEE2673B1F4C318F00D40183 /* AppDelegate.h */,
 				EEE2673C1F4C318F00D40183 /* AppDelegate.m */,
 				EEE2673E1F4C318F00D40183 /* ViewController.h */,
@@ -71,6 +149,8 @@
 				EEE267521F4C31CC00D40183 /* MyItemListVC.m */,
 				EEE267531F4C31CC00D40183 /* MyItemListVC.xib */,
 				EEE267411F4C318F00D40183 /* Main.storyboard */,
+				EE1279701F4D6B14006AD8FF /* MyApp.pch */,
+				EE1279711F4D6BBB006AD8FF /* Header.h */,
 				EEE267441F4C318F00D40183 /* Assets.xcassets */,
 				EEE267461F4C318F00D40183 /* LaunchScreen.storyboard */,
 				EEE267491F4C318F00D40183 /* Info.plist */,
@@ -86,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEE2674E1F4C318F00D40183 /* Build configuration list for PBXNativeTarget "MyApp" */;
 			buildPhases = (
+				CE2BFD8E8BD8B9EFBFA123BE /* [CP] Check Pods Manifest.lock */,
 				EEE267341F4C318F00D40183 /* Sources */,
 				EEE267351F4C318F00D40183 /* Frameworks */,
 				EEE267361F4C318F00D40183 /* Resources */,
+				43495C857AE3144FD4687712 /* [CP] Embed Pods Frameworks */,
+				3978C10DAC37517C700ECB88 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE1279811F4D73FB006AD8FF /* MJImgCell.xib in Resources */,
 				EEE267481F4C318F00D40183 /* LaunchScreen.storyboard in Resources */,
 				EEE267451F4C318F00D40183 /* Assets.xcassets in Resources */,
 				EEE267431F4C318F00D40183 /* Main.storyboard in Resources */,
@@ -146,15 +230,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3978C10DAC37517C700ECB88 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyApp/Pods-MyApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43495C857AE3144FD4687712 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyApp/Pods-MyApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE2BFD8E8BD8B9EFBFA123BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EEE267341F4C318F00D40183 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE1279851F4D7775006AD8FF /* UIView+Extension.m in Sources */,
 				EEE267401F4C318F00D40183 /* ViewController.m in Sources */,
 				EEE2674B1F4C318F00D40183 /* main.m in Sources */,
+				EE1279821F4D7738006AD8FF /* SelectImgVC.m in Sources */,
 				EEE2673D1F4C318F00D40183 /* AppDelegate.m in Sources */,
+				EE1279841F4D7773006AD8FF /* BasicControl.m in Sources */,
+				EE1279801F4D73FB006AD8FF /* MJImgCell.m in Sources */,
 				EEE267541F4C31CC00D40183 /* MyItemListVC.m in Sources */,
+				EE1279831F4D776C006AD8FF /* LxGridViewFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +423,15 @@
 		};
 		EEE2674F1F4C318F00D40183 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EBB15FCCCE7FB10D8D998DE /* Pods-MyApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF639P3DKQ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyApp/MyApp.pch";
 				INFOPLIST_FILE = MyApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = skydrui.MyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,11 +441,15 @@
 		};
 		EEE267501F4C318F00D40183 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DD1F1059C7BA726E754FFE0 /* Pods-MyApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF639P3DKQ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyApp/MyApp.pch";
 				INFOPLIST_FILE = MyApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = skydrui.MyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
