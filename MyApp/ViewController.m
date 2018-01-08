@@ -19,7 +19,6 @@
     // Do any additional setup after loading the view, typically from a nib.
     //这是一个Git测试
     //这是第二个测试oooooooooo
-    //这是第三次测试
 }
 
 
